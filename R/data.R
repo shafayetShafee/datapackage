@@ -1,0 +1,26 @@
+#' Belle Ayr Liquefaction Runs
+#'
+#' A dataset containing 27 runs presenting performance of a chemical process (CO2
+#' production) as a function of several controllable process variables. There are
+#' Eight variables giving information on 27 runs. So there are 27 rows and 9
+#' columns in the dataset.
+#'
+#' @format A data frame with 27 rows and 9 variables:
+#' \describe{
+#'   \item{\code{runs}}{Run No.}
+#'   \item{\code{co2}}{CO_2 produced}
+#'   \item{\code{time}}{space time, in min}
+#'   \item{\code{temp}}{Temperature, in Degree celcius}
+#'   \item{\code{perc}}{Percent Solvation}
+#'   \item{\code{oil}}{Oil Yield (g/100g MAF)}
+#'   \item{\code{coal}}{Coal Total}
+#'   \item{\code{solvent}}{Solvent Total}
+#'   \item{\code{h2}}{Hydrogen Consumption}
+#' }
+#' @source Montgomery, D.C., Peck, E.A., and Vining, C.G. (2001) Introduction
+#' to Linear Regression Analysis. 3rd Edition, John Wiley and Sons.
+#'
+#' @references (1978) Belle Ayr Liquefaction Runs with Solvent. Industrial
+#' Chemical Process Design Development, 17, 3
+"DATASET"
+
